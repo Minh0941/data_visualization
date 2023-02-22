@@ -1,0 +1,46 @@
+Courses,Learning Outcomes,Course Prerequisite,Learning Outcome Prerequisite,LO ID
+Course 1: Precalculus,"MA01: Analyzing and interpreting the structure of polynomial, rational, and exponential functions.",,,1
+,MA02: Exploring mathematical reasoning used in trigonometric functions.,,MA01,2
+,MA03: Demonstrating and understanding of matrices and solving systems using matrix equations.,,MA02,3
+,MA04: Exploring and calculating theoretical probabilities and developing a probability distribution for a random variable.,,MA02,4
+,MA05: Classifying conic equations and constructing graphs of conic sections.,,MA02,5
+,,,,
+Course 2: Calculus 1,MA06: Use derivatives to analyze and graph algebraic and transcendental functions,C1,MA02,6
+,MA07: Select and apply models and differentiation techniques to applications ,,MA06,7
+,MA08: Apply the Fundamental Theorem of Calculus to evaluate integrals,,MA07,8
+,"MA09: Use estimation techniques to approximate rates of change, area, and total change",,MA08,9
+,,,,
+Course 3: Calculus 2,MA10: Use techniques of analytical and numerical integration;,C1; C2,MA08,10
+,MA11: Apply the definite integral to problems arising in geometry and in either physics or probability,,MA10,11
+,MA12: Work with the concept of infinite series and be able to calculate and use Taylor series,,MA02,12
+,MA13: Analyze first order differential equations from a graphical and algebraic point of view,,MA10,13
+,,,,
+Course 4: Differential Equation,MA14: Explain the concept of differential equation,C2; C3,MA06,14
+,MA15: Solve first-order ordinary differential equations,,MA14;MA10,15
+,MA16: Find solution of higher-order linear differential equations. ,,MA15,16
+,MA17: Solve systems of linear differential equations. ,,MA16,17
+,MA18: Use the Laplace transform in finding the solution of linear differential equations. ,,MA17,18
+,,,,
+Courses 5: Physics 1,"PH01: Understand the concepts, laws, and principles used in mechanics and generate associations",C1; C2,MA06,19
+,PH02: Understand different type of energy and be able to analyze related parameters in a motion system,,PH01,20
+,PH03: Use fundamental physical principles to understand how everyday objects work.,,PH02,21
+,PH04: Understand and analyze typical periodic motion system,,PH01;MA02,22
+,,,,
+Courses 6: Physics 2,PH05: Understand Coulomb's and Gauss' Laws,C2; C3; C5,MA10;PH01,23
+,"PH06: Basic understanding of electric fields and potentials, electrical and magnetic properties of matter",,PH05,24
+,PH07: Use of Ampere's and Faraday's Laws to understand induced electromotive forces,,PH06,25
+,"PH08: Ability to analyze elementary DC and AC circuits,",,MA10;MA06,26
+,PH09: Understand electromagnetic waves and Maxwell's equations.,,PH08,27
+,,,,
+Course 7: Circuit 1,"EE01: Understand ideal basic circuit elements, power, and energy",C2; C3; C6,,28
+,"EE02: Ability to construct basic electrical circuits, and apply Omh's law and Kirchhoff's laws",,EE01;MA11,29
+,"EE03: Ability to analyze simple resistive circuits, voltage divider circuits, and current-divider circuits",,EE02,30
+,EE04: Understand various techniques of circuit analysis and Thevenin and Norton equivalent circuits,,EE03;PH08,31
+,"EE05: Understand the functions of operational amplifiers, inductors, and capacitors",,EE04;PH08,32
+,"EE06: Understand first-order RL and RC circuits, and the natural and step responses of RLC circuits",,EE03;MA06,33
+,,,,
+Course 8: Circuit 2,EE07: Ability to perform sinusoidal steady-state circuit analysis,C1; C4; C7,EE06;MA16,34
+,EE08: Analyze balanced three phase circuits,,EE07,35
+,"EE09: Understand convolution, the Laplace Transform and apply them in circuit analysis",,EE08;MA18,36
+,EE10: Understand Bode plots and frequency response ,,EE09,37
+,EE11: Design passive and active frequency selective circuits,,EE09;EE10,38
